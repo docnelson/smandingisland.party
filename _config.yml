@@ -22,7 +22,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Smanding_Island
-github_username:  jekyll
+github_username:  docnelson
+repository: smanding.island
 
 # Build settings
 markdown: kramdown
