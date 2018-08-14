@@ -23,7 +23,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Smanding_Island
 github_username:  docnelson
-repository: smanding.island
+repository: docnelson/smanding.island
+
+minimal_mistakes_skin: "dark" # "mint","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Build settings
 markdown: kramdown
@@ -31,6 +33,16 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

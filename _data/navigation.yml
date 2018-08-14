@@ -1,0 +1,17 @@
+main:
+  - title: "Apply Now"
+    url: https://t.co/qYg2zzSAwy
+
+docs:
+  - title: General
+    children:
+      - title: "Clan Manifesto"
+        url: /docs/clan-manifesto/
+      - title: "A Few Simple Rules"
+        url: /docs/a-few-simple-rules/
+
+  - title: Administration
+    children:
+      - title: "Recruiting"
+        url: /docs/recruiting/  
+
